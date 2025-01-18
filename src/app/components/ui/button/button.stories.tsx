@@ -85,3 +85,11 @@ export const iconBtn: Story = {
     ...Primary.argTypes,
   },
 };
+
+export const AsLink: StoryObj<typeof Button> = {
+  args: {
+    variant: 'primary',
+    asChild: true,
+    children: <a href={'https://www.google.com'}>AsLink</a>,
+  },
+};
