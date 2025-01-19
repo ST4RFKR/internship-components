@@ -5,3 +5,5 @@ export { RussianFlag } from './Russian-flag';
 export { Eye } from './Eye';
 export { EyeOff } from './Eye-off';
 export { Search } from './Search';
+export { Checked } from './Checked';
+export { Unchecked } from './Unchecked';
