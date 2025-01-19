@@ -9,7 +9,7 @@ import { ChevronDown } from '@/app/assets/icon/components';
 type PropsTriger = {
   label?: React.ReactNode;
   icon?: React.ReactNode;
-  disabled: boolean;
+  disabled?: boolean;
 };
 
 const Select = SelectPrimitive.Root;

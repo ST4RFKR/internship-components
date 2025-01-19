@@ -2,13 +2,13 @@
 
 import * as React from 'react';
 import * as CheckboxPrimitive from '@radix-ui/react-checkbox';
-import { Checked, Unchecked } from '@/app/assets/icon/components';
+import { Checked } from '@/app/assets/icon/components';
 import { cn } from '@/app/utils/cn';
 import Typography from '../typography/typography';
 
 type Props = {
-  label: string;
-  disabled: boolean;
+  label?: string;
+  disabled?: boolean;
 };
 
 export const Checkbox = React.forwardRef<

@@ -1,12 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from './select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './select';
 import { EnglishFlag, RussianFlag } from '@/app/assets/icon/components';
 
 const meta = {
