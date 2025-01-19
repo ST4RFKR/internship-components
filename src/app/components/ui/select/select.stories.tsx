@@ -7,8 +7,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from './select';
-import RussinFlag from '@/app/assets/icon/components/RussinFlag';
-import EnglishFlag from '@/app/assets/icon/components/EnglishFlag';
+import { EnglishFlag, RussianFlag } from '@/app/assets/icon/components';
 
 const meta = {
   title: 'Select',
@@ -63,7 +62,7 @@ export const SelectIcon: Story = {
   args: {
     children: (
       <>
-        <SelectTrigger className="w-[210px]" icon={<RussinFlag />}>
+        <SelectTrigger className="w-[210px]" icon={<RussianFlag />}>
           <SelectValue placeholder="Russia" />
         </SelectTrigger>
         <SelectContent

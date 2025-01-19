@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react';
 
-const ChevronDown = (props: ComponentProps<'svg'>) => {
+export const ChevronDown = (props: ComponentProps<'svg'>) => {
   return (
     <svg
       width="24"
@@ -16,5 +16,3 @@ const ChevronDown = (props: ComponentProps<'svg'>) => {
     </svg>
   );
 };
-
-export default ChevronDown;

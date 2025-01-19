@@ -95,7 +95,7 @@ export const SmallText: Story = {
 export const SemiBoldSmallText: Story = {
   args: {
     children: 'This is Semi-Bold Small Text',
-    variant: 'semi-bold_small_text',
+    variant: 'semi_bold_small_text',
   },
 };
 

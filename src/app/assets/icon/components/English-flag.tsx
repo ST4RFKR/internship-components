@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react';
 
-const EnglishFlag = (props: ComponentProps<'svg'>) => {
+export const EnglishFlag = (props: ComponentProps<'svg'>) => {
   return (
     <svg
       width="24"
@@ -29,5 +29,3 @@ const EnglishFlag = (props: ComponentProps<'svg'>) => {
     </svg>
   );
 };
-
-export default EnglishFlag;

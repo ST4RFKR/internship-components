@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react';
 
-const RussinFlag = (props: ComponentProps<'svg'>) => {
+export const RussianFlag = (props: ComponentProps<'svg'>) => {
   return (
     <svg
       width="24"
@@ -29,5 +29,3 @@ const RussinFlag = (props: ComponentProps<'svg'>) => {
     </svg>
   );
 };
-
-export default RussinFlag;

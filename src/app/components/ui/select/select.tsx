@@ -4,7 +4,8 @@ import * as React from 'react';
 import * as SelectPrimitive from '@radix-ui/react-select';
 
 import { cn } from '@/app/utils/cn';
-import ChevronDown from '@/app/assets/icon/components/Chevron-down';
+import Typography from '../typography/typography';
+import { ChevronDown } from '@/app/assets/icon/components';
 type PropsTriger = {
   label?: React.ReactNode;
   icon?: React.ReactNode;
@@ -21,10 +22,11 @@ const SelectTrigger = React.forwardRef<
 >(({ icon, label, className, children, ...props }, ref) => (
   <>
     {label && (
-      <label
+      <Typography
+        variant="regular_text_14"
         className={cn('text-sm leading-6  text-light-900 disabled:text-light-900 ', className)}>
         {label}
-      </label>
+      </Typography>
     )}
     <SelectPrimitive.Trigger
       ref={ref}
