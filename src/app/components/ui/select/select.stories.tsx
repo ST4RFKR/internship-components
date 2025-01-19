@@ -65,10 +65,7 @@ export const SelectIcon: Story = {
         <SelectTrigger className="w-[210px]" icon={<RussianFlag />}>
           <SelectValue placeholder="Russia" />
         </SelectTrigger>
-        <SelectContent
-          onPointerDownOutside={(event) => {
-            event.preventDefault();
-          }}>
+        <SelectContent>
           <SelectItem value="Select-box" icon={<EnglishFlag />}>
             English
           </SelectItem>

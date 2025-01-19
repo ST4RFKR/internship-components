@@ -11,7 +11,6 @@ type Props = {
 
 export const Input = ({
   label,
-  value = '',
   variant = 'default',
   error,
   disabled,
@@ -21,7 +20,7 @@ export const Input = ({
   ...rest
 }: Props) => {
   const [showPassword, setShowPassword] = useState(false);
-  const [localValue, setValue] = useState(value);
+  const [localValue, setValue] = useState('');
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
