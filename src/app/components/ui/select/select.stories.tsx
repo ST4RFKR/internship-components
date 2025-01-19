@@ -11,6 +11,7 @@ import RussinFlag from '@/app/assets/icon/components/RussinFlag';
 import EnglishFlag from '@/app/assets/icon/components/EnglishFlag';
 
 const meta = {
+  title: 'Select',
   component: Select,
 } satisfies Meta<typeof Select>;
 

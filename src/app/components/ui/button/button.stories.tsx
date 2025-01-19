@@ -2,6 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { Button } from './button';
 
 const meta = {
+  title: 'Button',
   component: Button,
 } satisfies Meta<typeof Button>;
 
