@@ -55,12 +55,15 @@ export const SelectIcon: Story = {
   args: {
     children: (
       <>
-        <SelectTrigger className="w-[210px]" icon={<RussianFlag />}>
-          <SelectValue placeholder="Russia" />
+        <SelectTrigger className="w-[210px]" label="Select Language" icon={<RussianFlag />}>
+          <SelectValue>{'Русский'}</SelectValue>
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="Select-box" icon={<EnglishFlag />}>
+          <SelectItem value="en" icon={<EnglishFlag />}>
             English
+          </SelectItem>
+          <SelectItem value="ru" icon={<RussianFlag />}>
+            Русский
           </SelectItem>
         </SelectContent>
       </>
